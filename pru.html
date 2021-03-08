@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>Dating Website</title>
+        <link rel="StyleSheet" href="pru.css">
+    </head>
+    <body>
+        <div class="st">
+        <h1>Star Date</h1>
+        </div>
+        <div id="demo" class="star">
+            <ul>
+                <li><a href="#">TheApp</a></li>
+                <li><a href="#">Ambassadors</a></li>
+                <li><a href="#">TheBuzz</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="date">
+            <img src="C:\Users\user\Pictures\pru\land.jpg" height="600px" width="100%">
+        </div>
+        <div id="demo1" class="star1">
+            <h1>We’re not just for dating anymore</h1>
+        </div>
+        <div class="star2">
+            <ul>
+                <li><img src="C:\Users\user\Pictures\pru\land1.jpg" height="400" width="400px">
+                    <br><br>
+                    <h3>On Bumble, women make the first move. We’re 
+                        <br>levelling the playing field and changing the
+                        <br> dynamics of dating. We believe relationships should 
+                        <br>begin with respect and equality.</h3>   
+                </li>
+                <li><img src="C:\Users\user\Pictures\pru\land2.jpg" height="400" width="400px">
+                    <br><br>
+                    <h3>Career opportunities come about when 
+                        <br>you expand your network. On Bumble Bizz, 
+                        <br>you can pursue a career change, meet
+                        <br>team members, or become a mentor.</h3>
+                </li>
+                <li><img src="C:\Users\user\Pictures\pru\land.jpg" height="400" width=400px>
+                    <br><br>
+                    <h3>Whether you’re new to a city or looking to expand 
+                        <br>your social circle, Bumble BFF is a simplified 
+                        <br>way to create meaningful 
+                        <br>friendships.
+                    </h3>
+                </li>
+            </ul>
+        </div><br>
+        <div class="learn">
+            <ul>
+                <li><input type="submit" value="Learn More"></li>
+                <li><input type="submit" value="Learn More"></li>
+                <li><input type="submit" value="Learn More"></li>
+            </ul>
+        </div><br>
+        <div id="demo2" class="star3">
+            <img  src="C:\Users\user\Pictures\pru\land.jpg" height="500px" width="150%">
+        </div>
+        <div class="star4">
+            <h3>Bumble was first founded to challenge the antiquated rules of dating. Now, Bumble 
+                <br>empowers users to connect with confidence whether dating, networking, or meeting 
+                <br>friends online. We’ve made it not only necessary but acceptable for women to make the 
+                <br>first move, shaking up outdated gender norms. We prioritise kindness and respect, 
+                <br>providing a safe online community for users to build new relationships.</h3>
+        </div><br>
+        <div class="head28">
+            <div class="slider">
+                <div class="slides">
+                  <!--radio buttons start-->
+                  <input type="radio" name="radio-btn" id="radio1">
+                  <input type="radio" name="radio-btn" id="radio2">
+                  <input type="radio" name="radio-btn" id="radio3">
+                  <!--radio buttons end-->
+                  <!--slide images start-->
+                  <div class="slide first">
+                    <img src="C:\Users\user\Pictures\Camera Roll\thought.jpg" alt="" height="600px" width="100%">
+                  </div>
+                  <div class="slide">
+                    <img src="C:\Users\user\Pictures\Camera Roll\thought1.jpg" alt="" height="600px" width="100%">
+                  </div>
+                  <div class="slide">
+                    <img src="C:\Users\user\Pictures\Camera Roll\thought2.jpg" alt="" height="600px" width="100%">
+                  </div>
+                  
+                  <!--slide images end-->
+                  <!--automatic navigation start-->
+                  <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                  </div>
+                  <!--automatic navigation end-->
+                </div>
+                <!--manual navigation start-->
+                <div class="navigation-manual">
+                  <label for="radio1" class="manual-btn"></label>
+                  <label for="radio2" class="manual-btn"></label>
+                  <label for="radio3" class="manual-btn"></label>
+                </div>
+                <!--manual navigation end-->
+              </div>
+              <!--image slider end-->
+          
+              <script type="text/javascript">
+                  var counter = 1;
+                  setInterval(function(){
+                    document.getElementById('radio' + counter).checked = true;
+                    counter++;
+                    if(counter > 3){
+                      counter = 1;
+                    }
+                  }, 3000);
+                  </script>
+         </div>
+    </body>
+</html>
